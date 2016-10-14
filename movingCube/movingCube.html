@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>canvas</title>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<style type="text/css">
+	.outside{
+		position: relative;
+		width: 400px;
+		height: 400px;
+		background-color: gray;
+	}
+	.inside{
+		position: absolute;
+		margin-top: 30px;
+		margin-left: 125px;
+	}
+	</style>
+</head>
+<body>
+<div class="outside">
+	<p>按下键盘的“上、下、左、右”键来移动小方块</p>
+	<canvas id="myCanvas" class="inside"></canvas>
+</div>
+<script type="text/javascript" src="js/moving.js"></script>
+</body>
+</html>
